@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Smart terminator",
+    "version": "1.0.1",
+    "description": "Smart terminator",
+    "permissions": ["tabs", "scripting", "storage"],
+    "host_permissions": [
+        "*://*.youtube.com/*"
+        ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Gérer les sites bloqués",
+        "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ajouter un site</title>
+        <style>
+            body { font-family: sans-serif; padding: 10px; width: 250px; }
+            input { width: 100%; padding: 5px; }
+            button { margin-top: 10px; width: 100%; padding: 5px; }
+            ul { margin-top: 10px; padding-left: 20px; }
+            li { margin-bottom: 5px; }
+        </style>
+    </head>
+    <body>
+        <h2>Sites bloqués</h2>
+        <input id="siteInput" type="text" placeholder="ex: fdesouche.com" />
+        <button id="addSiteBtn">Ajouter</button>
+        <ul id="siteList"></ul>
+
+        <h2>Vidéos YouTube autorisées</h2>
+        <input id="videoInput" placeholder="ex: dQw4w9WgXcQ" />
+        <button id="addVideoBtn">Ajouter une vidéo</button>
+        <ul id="videoList"></ul>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
